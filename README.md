@@ -1,3 +1,20 @@
+# add proxy for chinese network environment
+使用前，修改:
+1. prepare_vm.sh
+   在标记处 设置你自己的代理地址
+2. Vagrantfile
+   这里我增加了一个192.168.56.0的本地私有网络用于传输文件，你可以选择不开(注释掉那行)，或者改成你本地
+
+# 操作方法
+1. 先按 https://zhuanlan.zhihu.com/p/259833884 装好vagrant，virtualbox
+2. 把本项目git clone到本地
+3. cd进这个目录
+4. vagrant up
+5. vagrant ssh
+
+默认账号密码 vagrant@vagrant
+
+
 # MPTP Tutorial Hands-On
 
 This repository is part of the [ACM SIGCOMM 2020 Tutorial on Multipath Transport Protocols](https://conferences.sigcomm.org/sigcomm/2020/tutorial-mptp.html).
