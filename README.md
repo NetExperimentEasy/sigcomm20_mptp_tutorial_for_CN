@@ -1,5 +1,5 @@
 # add proxy for chinese network environment
-使用前，修改:
+使用前，修改:(本条对应vagrant那个方法或者你就是想拉取github仓库)
 1. prepare_vm.sh
    在标记处 设置你自己的代理地址
 2. Vagrantfile
