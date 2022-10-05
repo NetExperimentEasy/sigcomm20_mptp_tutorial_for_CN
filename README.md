@@ -5,11 +5,6 @@
 2. Vagrantfile
    这里我增加了一个192.168.56.0的本地私有网络用于传输文件，你可以选择不开(注释掉那行)，或者改成你本地
 
-# 在linux中直接使用prepare_vm_cn.sh配置环境
-我已经将脚本中需要拉取得仓库地址全部替换为了gitee仓库
-
-可以直接在ubuntu20，22的机器中运行这个脚本`bash prepare_vm_cb.sh`就会完成所有环境所需得安装(除了quic_go)
-
 # 操作方法(window下使用vagrant创建虚拟机可以按这个来)
 1. 先按 https://zhuanlan.zhihu.com/p/259833884 装好vagrant，virtualbox
 2. 把本项目git clone到本地
@@ -18,6 +13,11 @@
 5. vagrant ssh
 
 默认账号密码 vagrant@vagrant
+
+# 或者 在linux中直接使用prepare_vm_cn.sh配置环境
+我已经将脚本中需要拉取得仓库地址全部替换为了gitee仓库
+
+可以直接在ubuntu18，20，22的机器中运行这个脚本`bash prepare_vm_cn.sh`就会完成所有环境所需得安装(除了quic_go)
 
 
 # MPTP Tutorial Hands-On
