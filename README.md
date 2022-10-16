@@ -1,4 +1,5 @@
-# add proxy for chinese network environment
+# 1. 使用Vagrant自动化配置虚拟机和实验环境(需要挂代理)
+## add proxy for chinese network environment
 使用前，修改:(本条对应vagrant那个方法或者你就是想拉取github仓库)
 1. prepare_vm.sh
    在标记处 设置你自己的代理地址
@@ -14,10 +15,10 @@
 
 默认账号密码 vagrant@vagrant
 
-# 或者 在linux中直接使用prepare_vm_cn.sh配置环境
+# 2. 【推荐】在linux中直接使用prepare_vm_cn.sh配置环境
 我已经将脚本中需要拉取得仓库地址全部替换为了gitee仓库
 
-可以直接在ubuntu18，20，22的机器中运行这个脚本`bash prepare_vm_cn.sh`就会完成所有环境所需得安装(除了quic_go)
+可以直接在ubuntu18，20，22的机器中运行这个脚本`bash prepare_vm_cn.sh`就会完成所有环境所需得安装(取消了quic_go，暂时不需要)
 
 
 # MPTP Tutorial Hands-On
