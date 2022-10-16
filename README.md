@@ -1,4 +1,4 @@
-# 1. 使用Vagrant自动化配置虚拟机和实验环境(需要挂代理)
+# 1. 【不推荐】使用Vagrant自动化配置虚拟机和实验环境(需要挂代理)
 ## add proxy for chinese network environment
 使用前，修改:(本条对应vagrant那个方法或者你就是想拉取github仓库)
 1. prepare_vm.sh
@@ -6,7 +6,7 @@
 2. Vagrantfile
    这里我增加了一个192.168.56.0的本地私有网络用于传输文件，你可以选择不开(注释掉那行)，或者改成你本地
 
-# 操作方法(window下使用vagrant创建虚拟机可以按这个来)
+## window下使用vagrant创建并配置虚拟机
 1. 先按 https://zhuanlan.zhihu.com/p/259833884 装好vagrant，virtualbox
 2. 把本项目git clone到本地
 3. cd进这个目录
